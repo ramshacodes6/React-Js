@@ -7,7 +7,7 @@ import Welcome from './Components/welcome'
 function App() {
   return (
     <>
-      
+      <Welcome name = "Ramsha " />
       <Navbar />
       <Home />
       <Footer />
