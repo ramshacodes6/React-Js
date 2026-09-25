@@ -8,8 +8,14 @@ function App() {
   return (
     <>
       <Welcome name = "Ramsha " />
+
       <Navbar />
       <Home />
+      <student name = "Aaliya"
+              age = {19}
+              course = "BCA"
+              Id = {45}
+       />
       <Footer />
     </>
   )
