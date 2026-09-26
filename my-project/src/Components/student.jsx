@@ -1,12 +1,12 @@
-import react from 'react'
+import React from 'react'
   
-function Student (props){
+function Student ({name , age , course , Id}){
     return (
         <>
-        <h3> Name : {props.name} </h3>
-        <h3> Age : {props.age} </h3>
-        <h3> Course : {props.course} </h3>
-        <h3> Id : {props.Id} </h3>
+        <h3> Name : {name} </h3>
+        <h3> Age : {age} </h3>
+        <h3> Course : {course} </h3>
+        <h3> Id : {Id} </h3>
         </>
     );
 }
