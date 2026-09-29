@@ -1,5 +1,5 @@
 :root {
-  --text: #6b6375;
+  --text: #cb167a;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -70,7 +70,7 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: #000a98
 }
 
 h1 {
