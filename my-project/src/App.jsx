@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './Components/navbar' 
-import Footer from './Components/footer'
+
 import Home from './Components/home'
 import Welcome from './Components/welcome'
 import Student from './Components/Student'
 import Counter from './Components/Counter'
 import Changename from './Components/changeName'
+
+import Footer from './Components/footer'
 
 function App() {
   return (
@@ -31,9 +33,11 @@ function App() {
         Id={48}
       /> */}
 
+
+         <Changename />
       <Footer />
 
-      <Changename />
+     
     </>
   )
 }
