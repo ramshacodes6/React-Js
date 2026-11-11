@@ -6,7 +6,7 @@ import React from 'react'
     <div>
         <hr></hr>
         footer 
-        <br> </br>
+        <br></br>
        
     </div>
   );
