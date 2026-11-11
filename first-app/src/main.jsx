@@ -6,10 +6,12 @@ import Home from './pages/home.jsx'
 import Header from './common/header.jsx'
 import Footer from './common/footer.jsx'
 import "./pages/home.css"
+import Practice from './common/practice.jsx'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         <Header />
+        <Practice/>
         <Home />
         <Footer />
     </StrictMode>
