@@ -1,4 +1,5 @@
-
+import productImage from '../assets/Images/5.png';
+import Btn from '../common/btn.jsx';
 
 
 function Home() {
@@ -7,9 +8,11 @@ function Home() {
             <div>
                 <h1>Hi I am Ramsha</h1>
                 <p>Welcome to my website! I am learning React and web development.</p>
+                <Btn/>
             </div>
-
+          
             <section className="productSection">
+               
                 <h2>Our Products</h2>
                 
             
@@ -20,7 +23,8 @@ function Home() {
                     <ProductCard/>
                     <ProductCard/>
                     <ProductCard/>
-                    
+                     <img src={productImage} alt="Product" />
+                     
 
                     {/* <div className="productItems">
                         <img src="./Images/2.png" alt="Product" />
@@ -58,6 +62,7 @@ function ProductCard(){
                         <h3>Casual Sneakers</h3>
                         <p>₹1999</p>
                         <button className="cart-btn">Add To Cart</button>
+                          <Btn/>
     </div>
     )
 }
